@@ -13,10 +13,10 @@
         android:layout_marginTop="50dp"
         android:layout_marginStart="50dp"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <com.jackandphantom.joystickview.JoyStickView
+        android:id="@+id/joystick"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_marginBottom="100dp"
